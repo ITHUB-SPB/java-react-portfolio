@@ -1,0 +1,9 @@
+.card {
+    display: flex;
+    gap: 18px;
+}
+
+.image {
+    height: 180px;
+    border-radius: 6px;
+}
