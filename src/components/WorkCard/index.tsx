@@ -2,7 +2,8 @@ import worksDashboardImage from '../../assets/works-dashboards.png'
 import classes from './WorkCard.module.css'
 
 type WorkCardProps = {
-    title: string
+    title: string,
+    year: number
 }
 
 export default function WorkCard({ title }: WorkCardProps) {
