@@ -3,20 +3,24 @@ import classes from './WorkCard.module.css'
 
 type WorkCardProps = {
     title: string,
-    year: number
+    year: number,
+    tag: string,
+    description: string
 }
 
-export default function WorkCard({ title, year }: WorkCardProps) {
+export default function WorkCard({ 
+  title, year, tag, description 
+}: WorkCardProps) {
     return (
       <article className={classes.card}>
         <img className={classes.image} src={worksDashboardImage} alt="work image" />
-        <div>
+        <div className={classes.content}>
           <h3>{title}</h3>
-          <section>
-            <span>{String(year)}</span>
-            <span>Dashboard</span>
+          <section className={classes.row}>
+            <span className={classes.pill}>{String(year)}</span>
+            <span className={classes.tag}>{tag}</span>
           </section>
-          <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          <p>{description}</p>
         </div>
       </article>
     )

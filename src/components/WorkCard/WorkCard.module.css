@@ -1,9 +1,37 @@
 .card {
     display: flex;
     gap: 18px;
+    padding: 29px 0 35px 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .image {
     height: 180px;
     border-radius: 6px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.pill {
+    font-weight: 900;
+    font-size: 18px;    
+    padding: 4px 10px;
+    color: white;
+    border-radius: 16px;
+    background-color: rgb(20, 40, 80);
+}
+
+.tag {
+    font-size: 20px;
+    color: rgb(134, 149, 164);
 }
