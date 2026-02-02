@@ -1,12 +1,8 @@
 import worksDashboardImage from '../../assets/works-dashboards.png'
 import classes from './WorkCard.module.css'
+import type { WorkDTO } from '../../types'
 
-type WorkCardProps = {
-    title: string,
-    year: number,
-    tag: string,
-    description: string
-}
+type WorkCardProps = Omit<WorkDTO, "id">
 
 export default function WorkCard({ 
   title, year, tag, description 

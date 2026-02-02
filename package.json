@@ -11,12 +11,14 @@
     "server": "json-server data.json"
   },
   "dependencies": {
+    "@tanstack/react-router": "^1.157.18",
     "json-server": "^1.0.0-beta.5",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@tanstack/router-plugin": "^1.157.18",
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
