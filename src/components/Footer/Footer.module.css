@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    align-items: center;
+}
+
+.copyright {
+    color: rgb(33, 36, 61);
+}
