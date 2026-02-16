@@ -1,7 +1,9 @@
 export type WorkDTO = {
   id: string,
   title: string,
-  tag: string,
-  description: string,
-  year: number
+  full_title: string,
+  tags: string[],
+  text: string,
+  year: string,
+  content: string[][]
 }

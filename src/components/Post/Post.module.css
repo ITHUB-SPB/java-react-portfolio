@@ -1,0 +1,11 @@
+.post {
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgba(187, 225, 250, 0.25);
+    flex: 1;
+}
+
+.post__title {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgba(33, 36, 61, 1);
+}
